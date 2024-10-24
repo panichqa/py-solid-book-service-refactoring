@@ -5,7 +5,7 @@ from app.book import Book
 class DisplayStrategy(ABC):
 
     @abstractmethod
-    def display(self, book: Book) -> str:
+    def display(self, content: Book) -> str:
         pass
 
 
