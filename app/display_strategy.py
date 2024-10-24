@@ -21,7 +21,9 @@ class ReverseDisplayStrategy(DisplayStrategy):
 
 class DisplayStrategyHandler:
     def __init__(
-        self, console_display: DisplayStrategy, reverse_display: DisplayStrategy
+            self,
+            console_display: DisplayStrategy,
+            reverse_display: DisplayStrategy
     ) -> None:
         self.console_display = console_display
         self.reverse_display = reverse_display
